@@ -1,0 +1,84 @@
+body{
+    background-color: #000000;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    width: 51%rem;
+    height: 2rem;
+    background-color:#000000;
+    position: relative;
+    position:fixed;
+    z-index: 100;
+    width: 100%;
+    right: 0;
+    top: 0;
+}
+ul{
+    margin-top: 0.5rem;
+    position: absolute;
+    padding-left:28rem;
+}
+li{
+    display: inline;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+.logo{
+    position: absolute;
+    color: #ffffff;
+    left: 7rem;
+    font-size: x-large;
+}
+.login-section{
+    position: absolute;
+    width:5rem;
+    height: 2rem;
+    background-color: #000000;
+    border-style: groove;
+    margin-left: 70rem;
+    border-radius: 10px;
+    
+}
+.login-section a{
+    position: absolute;
+    right:1rem;
+    top: 0.5rem;
+}
+.landing-left-side-icon{
+    position:absolute;
+}
+.landing-left-side-icon img{
+margin-bottom: 1rem;
+}
+.landing-left-side-icon {
+    position: absolute;
+    top: 15rem;
+    left: 2rem;
+  
+  }
+  .landing-left-side-icon{
+      position:absolute;
+  }
+  .landing-left-side-icon img{
+  margin-bottom: 1rem;
+  }
+  
+.icon-sidebar{
+    width: 2rem;
+    height: 3rem;
+}
+.landing-body-section{
+    position: relative;
+}
+.body-content{
+    position: absolute;
+    color: #ffffff;
+    padding: 15rem;
+    font-size: large;
+}
+
