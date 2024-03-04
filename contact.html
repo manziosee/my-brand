@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="/css/styles.css">
 
 </head>
@@ -30,9 +30,20 @@
           <li><a href=""><img src="../imgs/Instagram.svg" alt="" class="icon-sidebar"></a></li>
         </div>
         <div class="landing-body-section-text">
-            <pre class="body-content">
-               
-            </pre>
+            <div class="contact-header">
+                <div><hr class="horizontal-contact"><pre class="contact-me">Contact me ?</pre><hr class="horizontal-second"></div>
+                <div class="get-in">Get In Touch</div>
+            </div>
+
+            <div class="form-user-profile">
+                <form id="myForm" onsubmit="return validateForm()">
+                  <input type="text" name="firstName" id="firstName" placeholder="First name" class="first-name">
+                  <input type="text" name="lastName" id="lastName" placeholder="Last name" class="first-name"><br><br>
+                  <input type="text" name="email" id="email" placeholder="Email" class="email-user-profile"><br><br>
+                  <textarea name="" id="" cols="30" rows="10" class="address-user-profile"></textarea>
+                  <input type="submit" value="Submit" class="submit-dashboard">
+              </form>
+                </div>
             
         </div>
       </div>
