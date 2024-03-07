@@ -228,9 +228,10 @@ a {
 .first-name {
   height: 2rem;
   width: 15rem;
-  border-radius: 10px;
+  border-radius: 55px;
   margin-left: 2rem;
 }
+
 .form-user-profile {
   display: flex;
   flex-direction: column;
@@ -481,9 +482,10 @@ top: 4px;
     z-index: 2;
   }
   .title {
-    font-size: 2.2rem;
+    
     color: #444;
     margin-bottom: 10px;
+    font-size: medium;
   }
   
   .input-field {
@@ -503,7 +505,7 @@ top: 4px;
     line-height: 55px;
     color: #acacac;
     transition: 0.5s;
-    font-size: 1.1rem;
+    font-size: medium;
   }
   
   .input-field input {
@@ -519,6 +521,7 @@ top: 4px;
   .input-field input::placeholder {
     color: #aaa;
     font-weight: 500;
+    font-size: medium;
   }
   .social-media {
     display: flex;
@@ -532,7 +535,7 @@ top: 4px;
     justify-content: center;
     align-items: center;
     margin: 0 0.45rem;
-    color: #333;
+    color:#000000;
     border-radius: 50%;
     border: 1px solid #333;
     text-decoration: none;
@@ -576,7 +579,7 @@ top: 4px;
     top: -10%;
     right: 48%;
     transform: translateY(-50%);
-    background-image: linear-gradient(-45deg, #000000 0%, #000000 100%);
+    background-image: linear-gradient(-45deg, #000000, black 100%);
     transition: 1.8s ease-in-out;
     border-radius: 50%;
     z-index: 6;
@@ -615,7 +618,7 @@ top: 4px;
   .panel h3 {
     font-weight: 600;
     line-height: 1;
-    font-size: 1.5rem;
+    font-size: medium;
   }
   
   .panel p {
