@@ -1,51 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/42ae366cbc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="imgs/portfolio.svg" type="image/x-icon" />
     <title>Home</title>
-    <link rel="stylesheet" href="css/styles.css">
-
-</head>
-<body>
-    <header>
-        <div class="logo">logo</div>
-        <nav>
-            <ul>
-                <li><a href="/index.html" class="current">Home</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/skills.html">Skills</a></li>
-                <li><a href="/work.html">Work</a></li>
-                <li><a href="/blog.html">Blog</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="login-section"><a href="./login.html" >LOGIN</a></div>
-    </header>
-    <div class="landing-left-side">
-        <div class="landing-left-side-icon">
-          <li><a href=""><img src="imgs/Github.svg" alt="" class="icon-sidebar"></a></li><br>
-          <li><a href=""><img src="imgs/linkedin.svg" alt="" class="icon-sidebar"></a></li><br>
-          <li><a href=""><img src="imgs/Email.svg" alt="" class="icon-sidebar"></a></li><br>
-          <li><a href=""><img src="imgs/Instagram.svg" alt="" class="icon-sidebar"></a></li>
-        </div>
-        <div class="landing-body-section-text">
-            <pre class="body-content">
-                <span class="intro-greeting">Hi, My name is</span>
-
-                <span class="intro-name">MANZI  NIYONGIRA  OSEE</span>
-
-                <span class="intro-quote">I build things for the web.</span>
-
-                <span class="intro-bio">I am a junior web developer based in Kigali,
-                Rwanda. I like to create and design websites
-                for any help contact me</span>
-            </pre>
-            
-        </div>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="#landing">osee</a>
       </div>
-        
-</body>
-
-
+      <ul class="nav-links">
+        <li><a href="#landing">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <div class="social-icons-container">
+      <div class="social-icons">
+        <a href="#">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="#">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+    <main id="main-content">
+      <section id="landing">
+        <div class="intro">
+          <span class="my">Hi, My name is</span>
+          <span class="name">MANZI NIYONGIRA OSEE</span>
+        </div>
+        <span class="interest"> I build things for the web. </span>
+        <p class="bio">
+          I am a junior web developer based in Kigali ,Rwanda.<br />
+          I like to create and design websites<br />
+          for any help contact me
+        </p>
+        <button>Download CV</button>
+      </section>
+      <section id="about">
+        <span>About Me</span>
+        <p>
+          Hi!My name is <span>Osee</span>,I a junior web developer.<br />
+          I enjoy designing and developing websites,<br />
+          I started designing in 2016 but it was for high<br />
+          school projects but after 2018<br />
+          I started designing and studying more about web<br />
+          development.
+        </p>
+        <p>
+          Today,I am a student in Software Engineering<br />
+          and I am still studying to become a better web<br />
+          developer
+        </p>
+        <p>
+          Here are some few technologies I’ve been<br />
+          working with:
+        </p>
+        <ul>
+          <li>>> HTML</li>
+          <li>>> CSS</li>
+          <li>>> Python</li>
+          <li>>> Django</li>
+          <li>>> JavaScript</li>
+        </ul>
+      </section>
+      <section id="skills">
+        <span>Skills I have</span>
+      </section>
+      <section id="work">
+        <span>What I have done</span>
+      </section>
+      <section id="blog">
+        <span>Blog Posts</span>
+      </section>
+      <section id="contact">
+        <span>Contact Me</span>
+        <form>
+          <span>Get In Touch</span>
+          <div class="names">
+            <input type="text" placeholder="First Name" />
+            <input type="text" placeholder="Last Name" />
+          </div>
+          <input type="text" placeholder="Email Name" class="contact-email" />
+          <textarea cols="30" rows="10" placeholder="Message"></textarea>
+          <button>Send</button>
+        </form>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
 </html>
